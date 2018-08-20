@@ -1,0 +1,27 @@
+{
+  "name": "idanode-relay",
+  "description": "IdaNode Relay",
+  "author": "IdaNode",
+  "version": "0.1.0",
+  "main": "start.js",
+  "keywords": [
+    "relay",
+    "idanode",
+    "full node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/idanode/idanode-relay.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/idanode/idanode-relay/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "idanode-common": "git+https://github.com/idanode/idanode-common.git"
+  }
+}
